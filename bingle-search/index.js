@@ -1,5 +1,3 @@
-module.exports = function() {
+const googlesearch = require('./lib/google-search-api');
 
-    const googlesearch = require('./lib/google-search-api');
-    return googlesearch;
-}
+module.exports = googlesearch;
